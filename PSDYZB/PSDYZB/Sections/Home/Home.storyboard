@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wr6-Og-Aqh">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--首页-->
+        <scene sceneID="iOY-Ld-jCI">
+            <objects>
+                <navigationController id="wr6-Og-Aqh" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="首页" id="X2R-gX-Ffb"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4_7.fullscreen"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hvO-5H-ukw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="nXd-9Q-z2I" kind="relationship" relationship="rootViewController" id="JAp-Pi-M35"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TEV-9M-hk5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-223" y="-1085"/>
+        </scene>
+        <!--首页-->
+        <scene sceneID="oJg-QN-ulP">
+            <objects>
+                <viewController id="nXd-9Q-z2I" customClass="HomeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IVK-rj-vBG"/>
+                        <viewControllerLayoutGuide type="bottom" id="wmB-89-CtI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vpr-wg-t5c">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="首页" id="awQ-ef-gGr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mDi-Uh-eio" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="494" y="-1091"/>
+        </scene>
+    </scenes>
+</document>
